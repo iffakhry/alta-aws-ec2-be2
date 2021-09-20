@@ -23,7 +23,7 @@ func main() {
 }
 
 func hello(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello World All")
+	return c.String(http.StatusOK, "Hello World")
 }
 
 func helloUsers(c echo.Context) error {
