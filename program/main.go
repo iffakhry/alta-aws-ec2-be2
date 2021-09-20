@@ -17,6 +17,7 @@ func main() {
 	e.GET("/", hello)
 	e.GET("/users", hello)
 	e.GET("/books", hello)
+	e.GET("/books/:id", hello)
 	e.GET("/:name", helloName)
 	e.Start(port)
 }
