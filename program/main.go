@@ -16,6 +16,7 @@ func main() {
 	e := echo.New()
 	e.GET("/", hello)
 	e.GET("/users", hello)
+	e.GET("/books", hello)
 	e.GET("/:name", helloName)
 	e.Start(port)
 }
